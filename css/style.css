@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
 
 /*ПЛАШКА*/
 body::-webkit-scrollbar {
@@ -184,20 +184,14 @@ footer {
 }
 
 .right{
-
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin: auto;
+    margin: 1rem;
     text-align: center;
     display:block;
 }
 .left{
-
-    margin-bottom: 1rem;
-    padding-top: 1rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    margin: auto;
+    margin: 1rem;
     text-align: center;
     display:block;
 }
@@ -211,13 +205,14 @@ footer {
 }
 
 .linkphoto:hover {
+    transition: 1s;
     color: white;
     opacity: 0.33;
 }
 
 /*!Ливреи!*/
 .livery {
-    text-align: center;
+    margin: auto;
     height: 5rem;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://x-aero.ru/_ld/10/92371061.png);
     background-position: center center;
@@ -234,7 +229,7 @@ footer {
 }
 
 .livery2 {
-    text-align: center;
+    margin: auto;
     height: 5rem;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://x-aero.ru/_ld/9/24247931.png);
     background-position: center center;
@@ -251,7 +246,7 @@ footer {
 }
 
 .livery3 {
-    text-align: center;
+    margin: auto;
     height: 5rem;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://x-aero.ru/_ld/9/10300785.png);
     background-position: center center;
@@ -268,7 +263,7 @@ footer {
 }
 
 .livery4 {
-    text-align: center;
+    margin: auto;
     height: 5rem;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://x-aero.ru/_ld/9/44497303.png);
     background-position: center center;
@@ -285,7 +280,7 @@ footer {
 }
 
 .livery5 {
-    text-align: center;
+    margin: auto;
     height: 5rem;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://x-aero.ru/_ld/9/36712606.png);
     background-position: center center;
@@ -302,7 +297,7 @@ footer {
 }
 
 .livery6 {
-    text-align: center;
+    margin: auto;
     height: 5rem;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://x-aero.ru/_ld/9/31843354.png);
     background-position: center center;
@@ -320,7 +315,7 @@ footer {
 
 /*!СЦЕНАРИИ!*/
 .scenery {
-    text-align: center;
+    margin: auto;
     height: 5rem;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://www.avsim.su/file_images/138/img70408_3.jpg);
     background-position: center center;
@@ -513,22 +508,7 @@ img {
 
 }
 
-@media (max-width: 500px) {
-    .right {
-        padding: 1rem;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-    }
 
-    .left {
-        padding: 1rem;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-    }
-
-}
 
 @media (max-width:600px) {
     .nav {
@@ -564,25 +544,7 @@ img {
     }
 
 }
-@media (max-width:700px) {
-    .right{
-        margin-bottom: 1rem;
-        padding-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-        text-align: center;
-        display:block;
-    }
-    .left{  
-        margin-bottom: 1rem;
-        padding-top: 1rem;
-        margin-right: 1rem;
-        margin-left: 1rem;
-        text-align: center;
-        display: block;
-    }
-    
-}
+
 
 @media screen and (min-width: 700px) {
     .download {
